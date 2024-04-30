@@ -3,7 +3,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <p>hello next js</p>
+    <main className=" min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+      <h1 className=" text-center text-2xl">
+        hello next js
+      </h1>
+    </main>
     </>
   );
 }
